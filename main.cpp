@@ -102,9 +102,10 @@ public:
             Node<T> *newNode = temp->next;
             temp->next = temp->next->next;
             delete newNode;
+            length--;
 
         }
-        length--;
+
     }
 
    void insert(int index, T *value) {
