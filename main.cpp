@@ -104,6 +104,7 @@ public:
             delete newNode;
 
         }
+        length--;
     }
 
    void insert(int index, T *value) {
